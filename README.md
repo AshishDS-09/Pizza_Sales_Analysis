@@ -87,7 +87,7 @@ JOIN pizzas p ON od.pizza_id = p.pizza_id;
 
 ## 🧠 Insights & Recommendations
 
-- ⏰ Evening hours (6 PM – 9 PM) are the busiest time for orders  
+- ⏰ Afternoon & Evening hours (11 AM – 8 PM) are the busiest time for orders  
 - 🍕 Classic pizzas are the most popular category  
 - 💰 A few pizzas contribute the majority of total revenue  
 - 📅 Average daily pizza sales remain consistent, with weekend peaks  
@@ -106,6 +106,13 @@ JOIN pizzas p ON od.pizza_id = p.pizza_id;
 - 📊 Built KPIs and dashboards in Power BI  
 - 🎨 Improved data storytelling by turning queries into visuals  
 - 🚀 Completed an end-to-end analytics workflow  
+
+---
+
+## 📝 Presentation
+
+You can view the full project presentation here:  
+[Pizza Sales Analysis Presentation](/PIZZA_SALES_PRESENTATION.pdf)
 
 ---
 
