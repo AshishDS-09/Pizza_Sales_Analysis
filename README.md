@@ -53,7 +53,13 @@ The project includes **three dashboard pages**:
 - 📈 **Intermediate Insights** → Orders by Hour, Category-wise Sales, Avg Pizzas per Day, Top 3 Pizzas by Revenue  
 - 🚀 **Advanced Insights** → % Revenue Contribution, Cumulative Revenue Trend, Top 3 Pizzas per Category  
 
-📸 **Sample Screenshot:**  
-👉 ![Dashboard Screenshot](Images/pizza_dashboard.png)  
+---
+## 📸 **Sample Screenshot:**  
+
+Dashboard 1👉 ![Dashboard Screenshot](POWER_BI_Visualization/Dashboard_Page_1.pbix)  
+
+
+Dashboard 2👉 ![Dashboard Screenshot](POWER_BI_Visualization/Dashboard_Page_2.pbix)  
+
 
 ---
