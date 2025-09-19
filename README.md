@@ -58,8 +58,8 @@ The project includes **three dashboard pages**:
 
 
 
-Dashboard 1👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_2.png)  1
-Dashboard 2👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/DashBoard_Page_1.png).  
+Dashboard 1 -- 👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_2.png)  
+Dashboard 2 -- 👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/DashBoard_Page_1.png) 
 
 
 
