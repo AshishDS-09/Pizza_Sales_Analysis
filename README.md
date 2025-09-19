@@ -56,10 +56,10 @@ The project includes **three dashboard pages**:
 ---
 ## 📸 **Sample Screenshot:**  
 
-Dashboard 1👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_1.pbix).  
+Dashboard 1👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_1.png).  
 
 
-Dashboard 2👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_2.pbix)  
+Dashboard 2👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_2.png)  
 
 
 ---
@@ -80,7 +80,7 @@ SELECT SUM(od.quantity * p.price) AS total_revenue
 FROM order_details od
 JOIN pizzas p ON od.pizza_id = p.pizza_id;
 ```
-👉 Full queries available in: [`pizza_sales_analysis.sql`](pizza_sales_analysis.sql)
+👉 Full queries available in: [`SQL_QUERY_FILES`](SQL_QUERY_FILES/Load_Query.sql)
 
 ---
 
