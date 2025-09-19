@@ -56,10 +56,70 @@ The project includes **three dashboard pages**:
 ---
 ## 📸 **Sample Screenshot:**  
 
-Dashboard 1👉 ![Dashboard Screenshot](POWER_BI_Visualization/Dashboard_Page_1.pbix)  
+Dashboard 1👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_1.pbix).  
 
 
-Dashboard 2👉 ![Dashboard Screenshot](POWER_BI_Visualization/Dashboard_Page_2.pbix)  
+Dashboard 2👉 ![Dashboard Screenshot](https://github.com/AshishDS-09/Pizza_Sales_Analysis/blob/main/POWER_BI_Visualization/Dashboard_Page_2.pbix)  
 
 
 ---
+
+## 🧑‍💻 SQL Queries
+
+All business questions were first solved using SQL.  
+
+**Examples:**  
+
+```sql
+-- Total number of orders placed
+SELECT COUNT(DISTINCT order_id) AS total_orders
+FROM orders;
+
+-- Total revenue from pizza sales
+SELECT SUM(od.quantity * p.price) AS total_revenue
+FROM order_details od
+JOIN pizzas p ON od.pizza_id = p.pizza_id;
+```
+👉 Full queries available in: [`pizza_sales_analysis.sql`](pizza_sales_analysis.sql)
+
+---
+
+## 🧠 Insights & Recommendations
+
+- ⏰ Evening hours (6 PM – 9 PM) are the busiest time for orders  
+- 🍕 Classic pizzas are the most popular category  
+- 💰 A few pizzas contribute the majority of total revenue  
+- 📅 Average daily pizza sales remain consistent, with weekend peaks  
+
+✅ **Recommendations:**  
+- Focus promotions on popular pizzas  
+- Prepare staffing for peak dinner hours  
+- Target less-performing categories with discounts  
+
+---
+
+## 📈 Key Learnings
+
+- 🧑‍💻 Strengthened SQL querying skills (joins, aggregations, ranking)  
+- 🧹 Practiced data cleaning and preprocessing with Excel & Power Query  
+- 📊 Built KPIs and dashboards in Power BI  
+- 🎨 Improved data storytelling by turning queries into visuals  
+- 🚀 Completed an end-to-end analytics workflow  
+
+---
+
+## 🌟 Future Improvements
+
+- 📅 Add weekly and monthly sales trend analysis  
+- 👥 Analyze sales by customer segments (if data available)  
+- ☁️ Publish dashboard to Power BI Service for live sharing  
+- 🔄 Automate SQL → Power BI refresh pipeline
+
+---
+
+## 📄 License
+
+- 📌 This project is for learning purposes only.  
+- 📊 Data is a sample dataset (non-confidential).  
+- 🙌 Feel free to explore, learn, and get inspired 🚀
+
